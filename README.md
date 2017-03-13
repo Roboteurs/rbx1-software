@@ -3,7 +3,7 @@
 [![N|Roboteurs](https://cdn.shopify.com/s/files/1/0742/2899/files/logosmall.png?575371702457707276
 )](https://www.roboteurs.com)
 
-The RXB1 is a 6 axis remix of the famous Thor robot. This robot can be driven by a number of diffrent method. Using the SlushEngine this robot can be driven with a purley Python implementation. This makes it simple to understand how the robot is working and makes it easy for enginnergs and students to make changes to.
+The RXB1 is a 6 axis remix of the famous Thor robot. This robot can be driven by a number of different method. Using the SlushEngine this robot can be driven with a purley Python implementation. This makes it simple to understand how the robot is working and makes it easy for engineers and students to make changes to.
 *It should be noted that at the moment this software is still under a lot of development. It is working but the software will undergo a lot of changes. 
 # Installation
 To install this software all you need to do is clone the directory somewhere. This software does require the Slush library and Inputs
