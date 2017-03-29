@@ -8,7 +8,7 @@ import time
 
 #setup all of the axis for the SlushEngine
 b = Slush.sBoard()
-joints = [Slush.Motor(4), Slush.Motor(5), Slush.Motor(0), Slush.Motor(1), Slush.Motor(2), Slush.Motor(3)]
+joints = [Slush.Motor(0), Slush.Motor(1), Slush.Motor(2), Slush.Motor(3), Slush.Motor(4), Slush.Motor(5)]
 
 #reset the joints to clear previous errors
 for joint in joints:
@@ -23,12 +23,12 @@ joints[3].setMaxSpeed(150)
 joints[4].setMaxSpeed(150)
 joints[5].setMaxSpeed(150)
 
-#joint current limits. Still setting manually becuase testing
-joints[0].setCurrent(75, 75, 75, 75)
-joints[1].setCurrent(65, 65, 65, 65)
+#joint current limits. Still setting manually becuase testing (hold A, run A, acc A, dec, A)
+joints[0].setCurrent(65, 85, 75, 70)
+joints[1].setCurrent(65, 85, 85, 65)
 joints[2].setCurrent(50, 50, 50, 50)
 joints[3].setCurrent(75, 75, 75, 75)
-joints[4].setCurrent(95, 95, 95, 95)
+joints[4].setCurrent(85, 85, 85, 85)
 joints[5].setCurrent(65,65, 65, 65)
 
 #setup the gripper
